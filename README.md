@@ -1,41 +1,35 @@
-# Aplikasi Pemesanan Kantin Kampus
+# Dokumentasi Pengujian Aplikasi
 
-## Deskripsi
-Aplikasi Pemesanan Kantin Kampus adalah aplikasi berbasis web yang dibuat menggunakan PHP Native untuk memenuhi tugas UTS Pemrograman Web I. Aplikasi ini digunakan untuk melihat menu dan melakukan pemesanan makanan atau minuman.
+Nama: [Arrum Tamara]  
+NIM: 25012080  
+Proyek: Pemesanan Kantin Kampus
 
-## Identitas Mahasiswa
-- Nama: [Arrum Tamara]
-- NIM: 25012080
-- Mata Kuliah: Pemrograman Web I
+## Daftar Pengujian
 
-## Fitur Aplikasi
-1. Menampilkan daftar menu kantin.
-2. Mencari menu berdasarkan nama.
-3. Menambahkan pesanan ke keranjang.
-4. Menghapus menu dari keranjang.
-5. Mengosongkan keranjang.
-6. Menghitung subtotal dan total pembayaran.
-7. Memberikan diskon 10% jika subtotal minimal Rp50.000.
-8. Memvalidasi jumlah pesanan dari 1 sampai 10.
-9. Menyimpan kategori favorit menggunakan cookie.
-10. Menyimpan keranjang menggunakan session.
+| No. | Pengujian | Hasil yang Diharapkan | Hasil Aktual | Status |
+|---|---|---|---|---|
+| 1 | Daftar menu | Menu tampil | Isi setelah diuji | Belum diisi |
+| 2 | Pencarian menu | Menu sesuai kata kunci tampil | Isi setelah diuji | Belum diisi |
+| 3 | Tambah pesanan | Pesanan masuk ke keranjang | Isi setelah diuji | Belum diisi |
+| 4 | Hapus menu | Menu terhapus dari keranjang | Isi setelah diuji | Belum diisi |
+| 5 | Kosongkan keranjang | Keranjang menjadi kosong | Isi setelah diuji | Belum diisi |
+| 6 | Diskon Rp50.000 | Diskon Rp5.000 dan total Rp45.000 | Isi setelah diuji | Belum diisi |
+| 7 | Validasi jumlah | Jumlah tidak valid ditolak | Isi setelah diuji | Belum diisi |
+| 8 | Kategori favorit | Pilihan kategori tersimpan sesuai fungsi cookie | Isi setelah diuji | Belum diisi |
 
-## Teknologi yang Digunakan
-- PHP Native
-- HTML
-- CSS
-- Session dan Cookie PHP
-- Visual Studio Code
-- XAMPP
+## Bukti Screenshot
 
-## Cara Menjalankan Aplikasi
-1. Simpan folder proyek di dalam folder htdocs XAMPP.
-2. Jalankan server PHP.
-3. Buka browser.
-4. Akses alamat `http://localhost:8000`.
+Simpan screenshot setiap pengujian dalam folder ini dengan nama yang sesuai, misalnya:
 
-## Pengujian
-Pengujian dilakukan untuk memeriksa fitur pencarian menu, pemesanan, validasi jumlah, keranjang, diskon, dan kategori favorit. Bukti screenshot serta hasil pengujian akan disimpan di folder dokumentasi pengujian.
+- `01-daftar-menu.png`
+- `02-pencarian-menu.png`
+- `03-keranjang.png`
+- `04-hapus-menu.png`
+- `05-kosongkan-keranjang.png`
+- `06-diskon.png`
+- `07-validasi-jumlah.png`
+- `08-kategori-favorit.png`
 
-## Kesimpulan
-Aplikasi ini dibuat untuk mempraktikkan penggunaan PHP Native, pengolahan form, session, cookie, validasi input, dan perhitungan pembayaran dalam aplikasi web sederhana.
+## Catatan
+
+Isi kolom hasil aktual dan status berdasarkan hasil pengujian yang benar-benar dilakukan. Gunakan status **Berhasil** jika hasilnya sesuai harapan, atau **Gagal** jika belum sesuai. Pastikan screenshot bukti tersedia untuk setiap pengujian yang dilaporkan.
